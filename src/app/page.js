@@ -5,7 +5,7 @@ export default function Home() {
 
   return (
     <view>
-      <h1>Hi! Welcome to my page</h1>
+      <h1>Hi! Welcome to my (static) page</h1>
       <Image 
         src={img} 
         width={500} 
