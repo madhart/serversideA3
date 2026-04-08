@@ -5,11 +5,13 @@ export default async function Character({name, species, image}) {
         <div>
             <h1>{name}</h1>
             <h2>{species}</h2>
+            {image && image!=="" && (
             <Image 
                 src={image}
                 width={500} 
                 height={500} 
-            ></Image>
+           />
+            )}
         </div>
      )
 }
